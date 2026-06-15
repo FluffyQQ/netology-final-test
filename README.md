@@ -69,10 +69,10 @@ pytest -m bug                # только баги (красные)
 
 | ID | Заголовок | Severity | Тест |
 |----|-----------|----------|------|
-| [bug_001](docs/bug_reports/bug_001_card_17digits.md) | Поле карты принимает 17 цифр вместо 16 | Major | `test_tc06_card_accepts_17_digits` |
-| [bug_002](docs/bug_reports/bug_002_negative_amount.md) | Отрицательная сумма принимается, кнопка «Перевести» активна | **Critical** | `test_tc07_negative_amount_accepted` |
-| [bug_003](docs/bug_reports/bug_003_boundary.md) | Off-by-one: `>` вместо `>=` блокирует граничный перевод | Major | `test_tc05_boundary_condition` |
-| [bug_004](docs/bug_reports/bug_004_commission.md) | Комиссия округляется до 10 ₽ вместо 1 ₽ | Major | `test_tc04_commission_calculation` |
+| [bug_001](https://github.com/FluffyQQ/netology-final-test/issues/1) | Поле карты принимает 17 цифр вместо 16 | Major | `test_tc06_card_accepts_17_digits` |
+| [bug_002](https://github.com/FluffyQQ/netology-final-test/issues/2) | Отрицательная сумма принимается, кнопка «Перевести» активна | **Critical** | `test_tc07_negative_amount_accepted` |
+| [bug_003](https://github.com/FluffyQQ/netology-final-test/issues/3) | Off-by-one: `>` вместо `>=` блокирует граничный перевод | Major | `test_tc05_boundary_condition` |
+| [bug_004](https://github.com/FluffyQQ/netology-final-test/issues/4) | Комиссия округляется до 10 ₽ вместо 1 ₽ | Major | `test_tc04_commission_calculation` |
 
 Подробные баг-репорты — в папке `docs/bug_reports/`.
 
